@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+       <class name="com.hrm.employee.PIMTab"/>
+       <class name="MyHooks.Hooks"/>
+       <class name="TestRunner.CucumberTestRunner"/>
+       <class name="com.hrm.StepDefinations.EmployeeLogin"/>
+    </classes>
+  </test> 
+</suite>  
+
+<!--
+<suite name="Cucumber Parallel Suite" parallel="tests" thread-count="2">
+    <test name="Cucumber Tests - Thread 1">
+        <classes>
+            <class name="TestRunner.CucumberTestRunner"/>
+        </classes>
+    </test>
+</suite>
+-->
