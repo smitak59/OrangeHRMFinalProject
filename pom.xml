@@ -5,22 +5,27 @@
 	<groupId>FinalOrangeHRM</groupId>
 	<artifactId>FinalOrangeHRM</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<dependencies>     <!--
+	
+		<dependencies>     <!--
 		https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>4.32.0</version>
-		</dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.21.0</version> <!-- Or latest -->
+</dependency>
 		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.14</version>
 		</dependency>
-
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>2.0.9</version> <!-- or compatible -->
+</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -87,6 +92,11 @@
 		    <version>4.4</version>
 		</dependency>
 
+		<dependency>
+			<groupId>LarkspurKarate</groupId>
+			<artifactId>LarkspurKarate</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 
